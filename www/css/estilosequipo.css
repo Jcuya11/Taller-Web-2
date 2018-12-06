@@ -1,0 +1,23 @@
+.card{
+   
+    top: 100px;
+    text-align: center;
+    left: 70px;
+    border: 0;
+}
+.tarjeta2{
+    
+    top: 300px;
+    margin-bottom: 480px;
+    text-align: center;
+    left: 70px;
+    border: 0;
+
+}
+h1{
+    text-align: center;
+    padding: 90px;
+    color: #2439AC;
+    font-size: 64px;
+    font-style: bold;
+}
