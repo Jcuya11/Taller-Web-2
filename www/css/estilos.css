@@ -1,65 +1,41 @@
-body{
-    background-color: aqua;
-}
-#menu{
-    font-size: 30px;
-    
-}
-.btn{
-    font-size: 30px;
-    background-color: #00AAFF;
-    color: azure
+/*BODY*/
+
+body {
+    background-color: #ffffff;
+    font-family: 'arimo', sans-serif !important;
 }
 
-.mb-3 {
-    margin-bottom: 0 !important;
-}
-#presentacion{
-    background-color: lightcoral;
-    
-}
-#cintadeinfo1{
-    background-color:#17335B;
-    padding-top: 20px;
-    color: aliceblue;
+/*HEADER*/
+header {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 0px;
     text-align: center;
-    
-}
-#cintadeinfo2{
-    background-color:#A1D6C7;
-    height: 60px;
-    color: rgb(0, 0, 0);
-    text-align: center;  
-    height:180px ;  
-    font-size: 35px;
-}
-#presentacion2{
-    padding-top: 20px;
+    background-color: #2439AC;
+    font-family: 'arimo',sans-serif;
+    color: #ffffff;
+    font-size: 13px;
 }
 
-.jumbotron{
-    margin-bottom: 0;
+/*NAVBAR*/
+
+/*CAROUSEL*/
+.carousel-caption > p{
+    margin-top: 1vw;
+    font-size:1.75vw;
+    line-height: 1;
+    text-shadow: black;
+    text-align: left;
+    color:#ffffff;
 }
-.tratamientos{
-    background-color: #17335B;
-    height: 400px;
-}
-#fondodeporque{
-    background-color: #C1C0BE;
-    height: 400px;
-}
-#porque{
-    color: #17335B;
-    margin-left: 200px;
-    font-size: 80px;
-    line-height: 200px; 
-}
-#porque2{
-    color: #17335B;
-    margin-left: 600px;
-    font-size: 80px;
-    line-height: -20px;
-   
-}
+/*CTA*/
+.cta {
+    background: #2439AC;
+    color: #ffffff;
 }
 
+/*FOOTER*/
+footer{
+    background-color: black;
+    color: #ffffff;
+}
