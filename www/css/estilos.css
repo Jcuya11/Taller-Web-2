@@ -28,10 +28,13 @@ header {
     text-align: left;
     color:#ffffff;
 }
+
+
 /*CTA*/
 .cta {
     background: #2439AC;
     color: #ffffff;
+    
 }
 
 /*FOOTER*/
@@ -43,4 +46,21 @@ footer{
     width: 100%;
    
     
+}
+#titulonosotros{
+    font-size: 100px;
+
+}
+.card{
+    border: 0;
+}
+.figura{
+    height: 0px;
+    width: 600px;
+    border-left:0px solid transparent;
+    border-right:200px solid transparent; 
+    border-top:0px solid transparent;
+    border-bottom:831px solid #2439AC;
+    position: absolute; 
+    z-index: 1;
 }
