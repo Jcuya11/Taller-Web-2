@@ -1,9 +1,12 @@
 /*BODY*/
 
 body {
-    background-color: #ffffff;
     font-family: 'arimo', sans-serif !important;
+    background-color: #ffffff;
 }
+
+/*CINTILLO*/
+
 
 /*HEADER*/
 header {
@@ -18,6 +21,18 @@ header {
 }
 
 /*NAVBAR*/
+nav{
+    text-align: right;
+}
+
+/*OTROS*/
+h5{
+    text-align: justify;
+    color:#2439AC;
+}
+.otros{
+    justify-content: center;
+}
 
 /*CAROUSEL*/
 .carousel-caption > p{
@@ -28,14 +43,81 @@ header {
     text-align: left;
     color:#ffffff;
 }
+
+
 /*CTA*/
 .cta {
     background: #2439AC;
     color: #ffffff;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    align-content: center;
+    color: #ffffff;
+    
 }
 
 /*FOOTER*/
 footer{
     background-color: black;
     color: #ffffff;
+    position: unset; 
+    width: 100%;
+    padding-top: 20px;
+}
+
+.credito {
+    text-align: center;
+}
+
+a{
+    color: #ffffff;
+    text-decoration-color: #ffffff;
+}
+
+
+#titulonosotros{
+    font-size: 100px;
+
+}
+.card{
+    border: 0;
+}
+.boton{
+    background-color: #2439AC;
+    border: #2439AC;
+    
+}
+    
+    
+.titulo{
+    text-align: center;
+    color: #2439AC;
+    font-style: bold;
+    
+}
+.figura{
+    height: 0px;
+    width: 600px;
+    border-left:0px solid transparent;
+    border-right:200px solid transparent; 
+    border-top:0px solid transparent;
+    border-bottom:831px solid #2439AC;
+    position: absolute; 
+    z-index: 1;
+}
+.figura2{
+    height: 0px;
+    width: 600px;
+    border-left:0px solid transparent;
+    border-right:200px solid transparent; 
+    border-top:0px solid transparent;
+    border-bottom:647px solid #2439AC;
+    position: absolute; 
+    z-index: 1;
+}
+.parrafo1{
+    color: #ffffff;
+    font-size: 13px;
+    padding-top: 120px;
+    margin-left: 30px;
 }
