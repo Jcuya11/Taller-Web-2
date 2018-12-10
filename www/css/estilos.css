@@ -37,6 +37,7 @@ header {
     
 }
 
+
 /*FOOTER*/
 footer{
     background-color: black;
@@ -47,13 +48,15 @@ footer{
    
     
 }
-#titulonosotros{
-    font-size: 100px;
 
-}
+
+/*NOSOTROS*/
+/*iconos*/
 .card{
     border: 0;
 }
+
+/*figura*/
 .figura{
     height: 0px;
     width: 600px;
@@ -63,4 +66,68 @@ footer{
     border-bottom:831px solid #2439AC;
     position: absolute; 
     z-index: 1;
+}
+
+/*EQUIPO*/
+
+.boton{
+    background-color: #2439AC;
+    border: #2439AC;
+    width: 200px;
+    
+}     
+.titulo{
+    text-align: center;
+    color: #2439AC;
+    
+    
+    
+}
+.parrafo1{
+    color: #ffffff;
+    font-size: 13px;
+    padding-top: 200px;
+    margin-left: 30px;
+}
+
+/*HERRAMIENTAS*/
+
+.figura2{
+    height: 0px;
+    width: 600px;
+    border-left:0px solid transparent;
+    border-right:200px solid transparent; 
+    border-top:0px solid transparent;
+    border-bottom:647px solid #2439AC;
+    position: absolute; 
+    z-index: 1;
+}
+.parrafo2{
+    color: #ffffff;
+    font-size: 13px;
+    padding-top: 120px;
+    margin-left: 30px;
+}
+
+/*modale*/
+.modal-content{
+    background-color: #2439AC;
+    color: #ffffff;
+    height: 350px;     
+}
+.modal-body{
+    text-align: center;
+    padding: 50px; 
+   
+}
+.modal-dialog{
+    position: left;
+    
+}
+.close{
+    color: #ffffff;
+    
+}
+.line{
+    color: #ffffff;
 }
